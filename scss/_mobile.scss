@@ -1,0 +1,32 @@
+@media(max-width: 768px){
+    .showcase {
+        height: auto;
+        nav {
+            display: block;
+            text-align: center;
+            h1 {
+                text-align: center;
+            }
+
+            ul {
+                display: block;
+            }
+            li {
+                display: inline-block;
+            }
+        }
+        &-content {
+            text-align: center;
+            display: block;
+            height: auto;
+
+            img {
+                margin: 0 auto;
+            }
+            h1 {
+                font-size: 35px;
+                margin: 15px 0;
+            }
+        }
+    }
+}
